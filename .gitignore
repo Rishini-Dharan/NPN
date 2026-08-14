@@ -1,0 +1,39 @@
+# Data files (large — download separately)
+data/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Models & artifacts
+models/
+outputs/
+metrics/
+logs/
+*.pkl
+*.pt
+*.pth
+*.joblib
+*.h5
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
